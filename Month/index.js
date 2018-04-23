@@ -34,6 +34,10 @@ export default class Month extends Component {
     'en': [
       'January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'
+    ],
+    'fr': [
+      'January', 'February', 'March', 'Avril', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'
     ]
   }
   _getMonthText () {
