@@ -62,14 +62,14 @@ export default class Calendar extends Component {
       'date': 'DD / MM'
     },
     'fr': {
-      'w': ['', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'],
-      'weekday': ['', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      'w': ['', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'],
+      'weekday': ['', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'dimanche'],
       'text': {
-        'start': 'Start',
-        'end': 'End',
+        'start': 'Début',
+        'end': 'Fin',
         'date': 'Date',
-        'save': 'Save',
-        'clear': 'Reset'
+        'save': 'Valider',
+        'clear': 'Réinitialiser',
       },
       'date': 'DD / MM'
     },
