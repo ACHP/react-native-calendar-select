@@ -78,9 +78,7 @@ export default class Month extends Component {
     date.subtract(1, 'days');
     weekday = date.isoWeekday();
     if (weekday === 7) {
-      return dayList.concat(new Array(7).fill({
-        empty: date.clone().hour(1)
-      }));
+      return dayList;
     }
     return dayList.concat(new Array(7 - weekday).fill({
       empty: date.clone().hour(1)
