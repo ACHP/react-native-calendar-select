@@ -287,7 +287,7 @@ export default class Calendar extends Component {
             </View>
           </View>
           <View style={styles.week}>
-            {[7, 1, 2, 3, 4, 5, 6].map(item =>
+            {[1, 2, 3, 4, 5, 6, 7].map(item =>
               <Text style={[styles.weekText, subFontColor]}　key={item}>{this._i18n(item, 'w')}</Text>
             )}
           </View>
