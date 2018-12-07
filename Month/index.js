@@ -52,7 +52,7 @@ export default class Month extends Component {
     if (year === y) {
       return Month.I18N_MAP[i18n][m];
     } else {
-      if (i18n === 'en') {
+      if (i18n === 'en' || i18n === 'fr') {
         return `${Month.I18N_MAP[i18n][m]}, ${y}`;
       }
       return month.format('YYYY年M月');
